@@ -2,8 +2,24 @@
 body {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 
 /* class in alpha order */
+
+.ai-c {
+  align-items: center;
+}
+
+.bgc-boringblue {
+  background-color: rgb(37, 137, 189);
+}
+
+.bgc-lightgrey {
+  background-color: lightgrey;
+}
+
 .bgc-royalblue {
   background-color: royalblue;
 }
@@ -12,9 +28,61 @@ body {
   background-color: steelblue;
 }
 
+.c-white {
+  color: white;
+}
+
+.d-f {
+  display: flex;
+}
+
+.ff-impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.fz-2 {
+  font-size: 2rem;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.lis-n {
+  list-style: none;
+}
+.ml {
+  margin-left: 1.5rem;
+}
+
+.mt {
+  margin-top: 1.5rem;
+}
+
+.p0 {
+    padding: 0;
+}
+}
+
 .p {
   padding: 1.5rem;
 }
+
 .w-100 {
   width: 100%;
+}
+
+/* media query */
+@media (min-width: 768px) {
+  .d-f\@lrg {
+    display: flex;
+  }
+}
+
+.ml\@lrg {
+  margin-left: 1.5rem;
 }
